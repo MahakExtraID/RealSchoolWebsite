@@ -1,0 +1,528 @@
+/* colours
+
+super dark blue: #27374D
+okayish blue: #526D82
+sky blue: #9DB2BF
+light blue: #DDE6ED
+
+*/
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poltawski Nowy', serif;
+font-family: 'Ysabeau', sans-serif; */
+
+#section1-main {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/getrealschool_logo.png"); */
+  background-color: #27374d;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  padding: 0px;
+}
+
+#nav1 {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  padding: 15px 80px 15px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  word-spacing: 2em;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: #dde6ed;
+}
+
+#nav1 .nav_link #nav_main {
+  color: #9db2bf;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 30px;
+}
+
+#sect1_2 {
+  padding-top: 10%;
+}
+
+.left-side {
+  float: left;
+  width: 50%;
+}
+
+.right-side {
+  float: right;
+  width: 50%;
+}
+
+#s1_2_l {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.25em;
+  color: #dde6ed;
+  width: 50%;
+  font-family: "Ysabeau", sans-serif;
+  padding-left: 10%;
+}
+
+#profile-pic {
+  height: 90%;
+  width: 63%;
+  border-radius: 10%;
+  margin-left: 10%;
+  border: 5px solid #9db2bf;
+}
+
+.mobile_intro {
+  display: none;
+}
+
+/* section 2 */
+
+.sect2 {
+  background-image: linear-gradient(
+      rgb(145, 127, 179, 0.2),
+      rgba(145, 127, 179, 0.2)
+    ),
+    url("../images/getrealschool_logo.png");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0px;
+  background-size: 100%;
+}
+/* Section 3 */
+
+.highlight {
+  color: rgb(246, 246, 137);
+}
+
+.section3-main {
+  background-color: #dde6ed;
+  padding: 7% 8%;
+  height: 600px;
+}
+
+#sect3-header {
+  text-align: center;
+  font-family: "Poltawski Nowy", serif;
+}
+
+.s3_l {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.25em;
+  color: #27374d;
+  width: 50%;
+  font-family: "Ysabeau", sans-serif;
+  padding-left: 10%;
+}
+
+#s3_l_video {
+  margin-top: 10%;
+  border-radius: 5%;
+}
+#s3_r {
+  margin-top: 10%;
+}
+
+.s3_r_text {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.5em;
+  color: #27374d;
+  width: 44%;
+  font-family: "Ysabeau", sans-serif;
+}
+
+/* .card {
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #2a2f4f !important;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* .card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+} */
+
+#card1-img {
+  height: 25%;
+}
+*/
+
+/* Popup Box Styles */
+/* .popup-box {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  max-width: 1000px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/plant1.jpeg");
+  overflow: auto;
+  height: 80%;
+}
+
+#popup1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/syracuse-university-logo-257F1FFDA0-seeklogo.com.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  padding: 0;
+  height: 50%;
+}
+
+#popup4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/warrior_sage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  padding: 0;
+  height: 80%;
+} */
+
+#box4_img {
+  width: 50%;
+}
+
+#box4_right {
+  justify-content: right; /* Center horizontally */
+  align-items: right;
+}
+
+#interview_company {
+  color: rgb(246, 246, 137);
+}
+
+.video-container {
+  display: flex; /* Set display to flex */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100%; /* Set the height of the container */
+  margin-bottom: 10%;
+}
+
+.popup-content {
+  overflow-y: scroll;
+  padding: 3% 10%;
+  color: rgb(244, 237, 213);
+}
+
+.popup-title {
+  font-family: "Ysabeau", sans-serif;
+  font-size: xx-large;
+}
+
+.popup-info {
+  font-family: "Poltawski Nowy", serif;
+  font-size: large;
+  width: 95%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card-title {
+  font-family: "Poltawski Nowy", serif !important;
+  font-size: x-large !important;
+  color: white !important;
+}
+
+.card-subtitle {
+  font-family: "Ysabeau", sans-serif !important;
+  color: #fde2f3 !important;
+  font-size: large !important;
+}
+
+.card-text {
+  font-family: "Ysabeau", sans-serif !important;
+  color: #e5beec !important;
+  font-size: large !important;
+}
+
+/* Table editing */
+.table-container {
+  text-align: center; /* Center align the table */
+}
+
+table {
+  border-collapse: collapse; /* Remove spacing between cells */
+  margin: 0 auto; /* Center align the table */
+}
+
+th,
+td {
+  border: 1px solid black; /* Add border to cells */
+  padding: 10px; /* Add padding to cells */
+}
+
+#card-5-content {
+  font-family: "Poltawski Nowy", serif;
+  font-size: large;
+}
+
+/* Section 4 */
+
+.section4 {
+  padding: 5% 4%;
+  background-color: #526d82;
+}
+
+.pdf-section {
+  padding: 50px;
+}
+
+.section-heading {
+  text-align: center;
+  font-family: "Ysabeau", sans-serif;
+  margin-bottom: 2%;
+  font-weight: bolder;
+}
+
+.pdf-preview {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Section 5 */
+
+.sect5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/house2.jpeg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0px;
+  background-size: 100%;
+}
+
+/* Section 6 */
+
+.sect6 {
+  padding: 5% 10%;
+  height: 850px;
+}
+
+.contact-info {
+  font-family: "Merriweather", serif;
+  font-size: large;
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 5%;
+  color: #526d82;
+}
+
+.contact-info-right {
+  font-family: "Merriweather", serif;
+  font-size: large;
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 5%;
+  color: #526d82;
+}
+
+.contact-text {
+  color: #ff6d60;
+  text-decoration: underline;
+}
+
+.contact-text-end {
+  color: #27374d;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.contact-sect-img {
+  align-items: center;
+  margin-top: 2%;
+  margin-left: 7%;
+  margin-bottom: 5%;
+  border-radius: 5%;
+}
+
+#g_map_link {
+  margin-top: 4%;
+  width: 23em;
+  height: 15em;
+  border: solid 1px;
+}
+
+.last_section {
+  background-color: #ffe569;
+  width: auto;
+  text-align: center;
+}
+
+/* Responsive behaviour addition */
+
+@media screen and (max-width: 920px) and (min-width: 700px) {
+  .mobile_txt {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* Navbar section */
+
+  #section1-main {
+    background-color: #2a2f4f;
+    background-image: none;
+    height: 60em;
+    background-size: 100%;
+  }
+
+  .topnav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav_link {
+    display: block;
+    margin: 0.3em 0;
+  }
+
+  #nav1 {
+    position: relative;
+  }
+
+  .link2 {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .navbar-toggle {
+    display: inline-block;
+    position: relative;
+    left: 80%;
+  }
+
+  .nav .icon-bar {
+    margin: 4px auto;
+  }
+
+  /* Home section */
+
+  .s1_2_left_text {
+    display: block;
+    width: 100%;
+  }
+
+  #home_r {
+    float: none;
+    width: auto;
+    align-items: center;
+  }
+
+  .home_r_text {
+    font-size: 1.25em;
+    color: #dde6ed;
+    width: 40%;
+    font-family: "Ysabeau", sans-serif;
+  }
+
+  .mobile_intro {
+    display: block;
+  }
+
+  .mobile_txt {
+    display: none;
+  }
+
+  /* Popup box */
+  .popup-box {
+    display: none;
+    /* position: relative; */
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../images/plant1.jpeg");
+  }
+
+  /* Section 3 */
+
+  .sect3 {
+    display: none;
+  }
+
+  /* Pdf preview */
+
+  .pdf-preview {
+    display: none;
+  }
+
+  .sect5 {
+    display: none;
+  }
+
+  /* Contact section */
+  .contact-info {
+    float: none;
+    display: block;
+    width: 90%;
+  }
+
+  .contact-sect-img {
+    display: none;
+  }
+  .g_map_link {
+    width: 50%;
+    height: 50%;
+  }
+
+  .contact-text-end {
+    display: none;
+  }
+
+  .cont-1 {
+    display: none;
+  }
+
+  #g_map_link {
+    width: 12em;
+    height: 10em;
+  }
+}
