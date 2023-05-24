@@ -523,17 +523,7 @@ td {
   
   /* Section 2 */
   .sect2 {
-    background-image: url("../images/forest.jpeg");
-    /* linear-gradient(
-        rgb(145, 127, 179, 0.2),
-        rgba(145, 127, 179, 0.2)
-      ), */
-    height: 12em;
-    padding: 0px;
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    display: none;
   }
 
   /* Section 3 */
