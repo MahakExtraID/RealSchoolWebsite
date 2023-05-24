@@ -16,12 +16,16 @@ font-family: 'Ysabeau', sans-serif; */
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/getrealschool_logo.png"); */
   background-color: #27374d;
-  height: 800px;
+  height: 55em;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
   padding: 0px;
+}
+
+.mobile_paragraph_home {
+  display: none;
 }
 
 #nav1 {
@@ -69,6 +73,12 @@ font-family: 'Ysabeau', sans-serif; */
   padding-left: 10%;
 }
 
+.mobile_para {
+  font-family: "Ysabeau", sans-serif;
+  font-size: 1.25em;
+  color: #dde6ed;
+}
+
 #profile-pic {
   height: 90%;
   width: 63%;
@@ -84,12 +94,12 @@ font-family: 'Ysabeau', sans-serif; */
 /* section 2 */
 
 .sect2 {
-  background-image: linear-gradient(
+  background-image: url("../images/forest.jpeg");
+  /* linear-gradient(
       rgb(145, 127, 179, 0.2),
       rgba(145, 127, 179, 0.2)
-    ),
-    url("../images/getrealschool_logo.png");
-  height: 400px;
+    ), */
+  height: 36em;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -125,6 +135,8 @@ font-family: 'Ysabeau', sans-serif; */
 #s3_l_video {
   margin-top: 10%;
   border-radius: 5%;
+  width: 80%;
+  height: 15em;
 }
 #s3_r {
   margin-top: 10%;
@@ -335,7 +347,7 @@ td {
 
 .sect6 {
   padding: 5% 10%;
-  height: 850px;
+  height: 60em;
 }
 
 .contact-info {
@@ -384,7 +396,12 @@ td {
 
 .last_section {
   background-color: #ffe569;
-  width: auto;
+  /* width: auto; */
+  justify-content: center;
+  align-items: center;
+}
+
+.last_section_h4 {
   text-align: center;
 }
 
@@ -393,6 +410,14 @@ td {
 @media screen and (max-width: 920px) and (min-width: 700px) {
   .mobile_txt {
     display: none;
+  }
+
+  #g_map_link {
+    display: none;
+  }
+
+  .sect2 {
+    height: 20em;
   }
 }
 
@@ -443,9 +468,23 @@ td {
 
   /* Home section */
 
-  .s1_2_left_text {
+  /* .s1_2_left_text {
     display: block;
     width: 100%;
+  } */
+
+  #section1-main {
+    height: 57em;
+    display: inline-block;
+    border: solid 0.5em #2a2f4f;
+  }
+
+  .mobile_paragraph_home {
+    border: solid 0.5em #2a2f4f;
+    display: inline-block;
+    width: 100%;
+    background-color: #2a2f4f;
+    padding: 2em;
   }
 
   #home_r {
@@ -484,45 +523,34 @@ td {
 
   /* Section 3 */
 
-  .sect3 {
-    display: none;
+  .section3-main {
+    height: 50em;
   }
 
   /* Pdf preview */
 
-  .pdf-preview {
+  /* .pdf-preview {
     display: none;
-  }
-
-  .sect5 {
-    display: none;
-  }
+  } */
 
   /* Contact section */
-  .contact-info {
-    float: none;
-    display: block;
-    width: 90%;
-  }
 
   .contact-sect-img {
     display: none;
   }
   .g_map_link {
-    width: 50%;
-    height: 50%;
-  }
-
-  .contact-text-end {
-    display: none;
-  }
-
-  .cont-1 {
     display: none;
   }
 
   #g_map_link {
-    width: 12em;
-    height: 10em;
+    display: none;
+  }
+
+  #contact_end_right {
+    display: none;
+  }
+
+  #contact_end_left {
+    width: 100% !important;
   }
 }
