@@ -394,6 +394,10 @@ td {
   border: solid 1px;
 }
 
+#mobile-text-contact {
+  display: none;
+}
+
 .last_section {
   background-color: #ffe569;
   /* width: auto; */
@@ -418,6 +422,17 @@ td {
 
   .sect2 {
     height: 20em;
+  }
+
+  #g_map_link {
+    margin-top: 4%;
+    width: 9em;
+    height: 5em;
+    border: solid 0.5em;
+  }
+  .sect6 {
+    padding: 5% 10%;
+    height: 90em;
   }
 }
 
@@ -520,7 +535,7 @@ td {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url("../images/plant1.jpeg");
   }
-  
+
   /* Section 2 */
   .sect2 {
     background-image: url("../images/forest.jpeg");
@@ -553,12 +568,12 @@ td {
   .contact-sect-img {
     display: none;
   }
-  .g_map_link {
-    display: none;
-  }
 
   #g_map_link {
-    display: none;
+    margin-top: 4%;
+    width: 9em;
+    height: 5em;
+    border: solid 0.5em;
   }
 
   #contact_end_right {
@@ -567,5 +582,14 @@ td {
 
   #contact_end_left {
     width: 100% !important;
+  }
+
+  #mobile-text-contact {
+    display: inline-block;
+  }
+
+  .sect6 {
+    padding: 5% 10%;
+    height: 90em;
   }
 }
