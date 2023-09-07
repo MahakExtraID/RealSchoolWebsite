@@ -403,10 +403,21 @@ td {
   /* width: auto; */
   justify-content: center;
   align-items: center;
+  position: relative;
+  top: 45em;
+  justify-content: center;
+  width: auto;
 }
 
 .last_section_h4 {
   text-align: center;
+}
+
+.form_link {
+  position: relative;
+  top: 2em;
+  text-align: center;
+  width: auto;
 }
 
 /* Responsive behaviour addition */
