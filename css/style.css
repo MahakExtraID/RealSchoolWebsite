@@ -445,10 +445,31 @@ td {
     padding: 5% 10%;
     height: 90em;
   }
+
+  .form_link {
+    display: none;
+  }
+
+  .last_section {
+    height: 10em;
+  }
+  .last_section_h4 {
+    position: relative;
+    bottom: 18em;
+  }
 }
 
 @media screen and (max-width: 700px) {
   /* Navbar section */
+
+  .last_section {
+    height: 10em;
+  }
+
+  .last_section_h4 {
+    position: relative;
+    bottom: 18em;
+  }
 
   #section1-main {
     background-color: #2a2f4f;
@@ -602,5 +623,9 @@ td {
   .sect6 {
     padding: 5% 10%;
     height: 90em;
+  }
+
+  .form_link {
+    display: none;
   }
 }
